@@ -11,14 +11,18 @@ header {
 	display: flex;
 	justify-content: center;
 	align-content: center;
+	margin-bottom: 20px;
 }
 
 main {
-	height: 800px;
+	height: 1000px;
 	width: 1000px;
 	display: flex;
 	justify-content: center;
+	flex-direction: row;
 	background-color: yellow;
+	padding-top: 10px;
+	align-self: center;
 
 }
 
@@ -26,16 +30,16 @@ main section {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-around;
 	
 }
 
 .bloco01 {
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: column;
 	background-color: white;
-	padding: 15px;
-	height: 200PX;
+	padding: 20px;
+	height: 190PX;
 	width: 550PX;
 	box-shadow: 5px 5px 5px grey;
 }
@@ -46,21 +50,82 @@ main section {
 	justify-content: space-around;
 	background-color: white;
 	padding: 15px;
-	height: 200PX;
+	height: 201PX;
 	width: 300PX;
 	font-size: 0.8em;
 	text-align: center;	
 	box-shadow: 5px 5px 5px grey;
 }
 
+.foto01 {
+	position: relative;
+	left: 5px;
+	margin-left: 5px
+}
 
 .bloco03 {
+	display: flex;
+	flex-wrap: wrap;
+	font-family: 'Libre Baskerville', serif;
+	background-color: white;
+	box-shadow: 5px 5px 5px grey;
+	padding: 15px;
+	height: 300px;
+	width: 300px;
+	margin-top: 20px;
+	/*position: relative;
+	left: -315px;*/
+}
+
+.paragrafo01 {
+	position: relative;
+	left: 170px
+
+}
+
+.bloco04 {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	background-color: white;
+	height: 300px;
+	width: 600px;
+	box-shadow: 5px 5px 5px grey;
+	padding: 15px;
+	margin-top: 20px;
+}
+
+.foto02 {
+	height: 200px;
+	width: 200px;
+}
+
+.conteiner {
+	display: flex;
+	flex-direction: row;
+}
+
+.bloco05 {
 	display: flex;
 	flex-wrap: wrap;
 	background-color: white;
 	box-shadow: 5px 5px 5px grey;
 	padding: 15px;
-	height: 300px;
-	width: 200px;
-	margin-top: 20px;
+}
+
+.bloco06 {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: white;
+	box-shadow: 5px 5px 5px grey;
+	padding: 15px;
+}
+
+.bloco07 {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: white;
+	box-shadow: 5px 5px 5px grey;
+	padding: 15px;
 }
